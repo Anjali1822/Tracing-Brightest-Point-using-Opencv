@@ -1,4 +1,4 @@
-# Tracing-Brightest-Point-using-Opencv
+# Finding the Brightest Spot in an Image using Python and OpenCV
 
 Firstly import the given modules/Iibraries using pip install cv2 numpy and matplotlib
 
