@@ -1,0 +1,1 @@
+# Tracing-Brightest-Point-using-Opencv
