@@ -13,12 +13,12 @@ img=cv2.imread('sky.jpg',0)
 cv2.imshow('output',img)
 print("\n")
 
-#Converting image into an array using numpy
+#Converting image into an array using numpy 
 img_array=np.array(img)
 print("Array formed due to the given image:- ")
 print(img_array,"\n")
 
-#Using cv2MinMaxLoc to find the location of darkest and brightest point
+#Using cv2MinMaxLoc to find the location of darkest and brightest point in image
 final_img=cv2.minMaxLoc(img_array)
 print("Output after using cv2MinMaxLoc :-",final_img)
 print(" ")
@@ -27,7 +27,7 @@ print(" ")
 print("The Total image size in Pixels :-",img_array.shape)
 print(" ")
 
-#Location of the brightest point
+#Location of the brightest point in Image
 print("The location of the brightest point in pixels is :-",final_img[3])
 print(" ")
 
